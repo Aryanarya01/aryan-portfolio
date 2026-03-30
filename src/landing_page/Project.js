@@ -19,7 +19,8 @@ function Project() {
       <div
         className="card"
         style={{
-          width: "22rem",
+          width: "100%",
+          maxWidth:"22rem",
           height: "33rem",
           marginTop: "3rem",
           backgroundColor: "#111827",
@@ -125,16 +126,16 @@ const projects = [
           Featured Projects
         </h2>
  
-   <div className="row">
+   
   {projects.map((project, index) => (
-    <div key={index} className="col-md-4 mb-4">
+    <div key={index} className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
       <ProjectCard project={project} delay={index * 300} />
     </div>
   ))}
 </div>
          
       </div>
-    </div>
+     
   );
 }
 

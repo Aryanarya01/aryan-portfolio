@@ -1,103 +1,4 @@
-// import React from "react";
-
-// function About() {
-//   return (
-//     <div style={{minHeight:"100vh"}}>
-//     <div
-//       className="container-fluid"
-//       style={{
-//         backgroundColor: "#0d1320",
-//         minHeight: "65vh", // height kam kar di
-//         width: "75%", // width 80%
-//         margin: "0 auto", // center me la diya
-//         borderRadius: "20px", // optional look
-//       }}
-//     >
-//       <div className="row">
-//         <h1
-//           className="mt-5 ms-5"
-//           style={{
-//             fontWeight: "800",
-//             fontSize: "2.5rem",
-//             color: "#fff",
-//             textDecoration: "underline",
-//             textUnderlineOffset: "15px",
-//             textDecorationThickness: "1.5px",
-//           }}
-//         >
-//           About Me
-//         </h1>
-//         <div className="col-5">
-//           <div
-//             style={{
-//               width: "250px",
-//               height: "250px",
-//               overflow: "hidden",
-//               borderRadius: "50%",
-//               border: "4px solid #fff",
-//               margin: "80px 40px 110px 60px",
-//             }}
-//           >
-//             <img
-//               src="/media/aryan.jpg"
-//               alt="Aryan"
-//               style={{ width: "100%", height: "100%", objectFit: "cover" }}
-//             />
-//           </div>
-//         </div>
-//         <div
-//           className="col-7"
-//           style={{
-//             color: "#9ca3af",
-//             fontSize: "1.25rem",
-//             lineHeight: "1.75rem",
-//           }}
-//         >
-//           <h4 style={{ lineHeight: "2.2rem", marginTop: "4rem" }}>
-//             💡 I am a passionate Full Stack Web Developer specializing in the
-//             MERN stack. I focus on delivering scalable, high-performance, and
-//             visually appealing web applications.<br></br> 🌐 My current focus is
-//             on MERN stack (MongoDB, Express, React, Node.js) along with
-//             mastering core programming concepts.
-//           </h4>
-//           <div
-//             style={{
-//               fontSize: "1rem",
-//               display: "grid",
-//               gridTemplateColumns: "1fr 1fr", // 2 equal columns
-//               marginTop:"2rem",
-
-//             }}
-//           >
-//             <p>
-//               <span style={{ fontWeight: "700", color: "#fff" }}>Focus:</span>{" "}
-//               Full Stack Development
-//             </p>
-//             <p>
-//               <span style={{ fontWeight: "700", color: "#fff" }}>
-//                 Education:
-//               </span>{" "}
-//               Bachelor of Technology
-//             </p>
-//             <p>
-//               <span style={{ fontWeight: "700", color: "#fff"}}>Stack:</span>{" "}
-//               MERN{" "}
-//             </p>
-//             <p>
-//               <span style={{ fontWeight: "700", color: "#fff" }}>
-//                 Location:
-//               </span>{" "}
-//               India
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//     </div>
-//   );
-// }
-
-// export default About;
+ 
 
 import React, { useEffect } from "react";
 import AOS from "aos";
@@ -114,7 +15,8 @@ function About() {
         style={{
           backgroundColor: "#0d1320",
           minHeight: "65vh",
-          width: "75%",
+          width: "100%",
+          maxWidth:"1100px",
           margin: "0 auto",
           borderRadius: "20px",
         }}
@@ -122,7 +24,7 @@ function About() {
       >
         <div className="row">
           <h1
-            className="mt-5 ms-5"
+            className="mt-5 text-center text-md-start px-5"
             style={{
               fontWeight: "800",
               fontSize: "2.5rem",
@@ -136,7 +38,7 @@ function About() {
             About Me
           </h1>
 
-          <div className="col-5" data-aos="zoom-in">
+          <div className="col-12 col-md-5 text-center" data-aos="zoom-in">
             <div
               style={{
                 width: "250px",
@@ -144,11 +46,11 @@ function About() {
                 overflow: "hidden",
                 borderRadius: "50%",
                 border: "4px solid #fff",
-                margin: "80px 40px 110px 60px",
+                margin: "2rem auto",
               }}
             >
               <img
-                src="/media/aryann.jpg"
+                src="/favicon.png"
                 alt="Aryan"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
@@ -156,7 +58,7 @@ function About() {
           </div>
 
           <div
-            className="col-7"
+            className="col-12 col-md-7"
             style={{
               color: "#9ca3af",
               fontSize: "1.25rem",

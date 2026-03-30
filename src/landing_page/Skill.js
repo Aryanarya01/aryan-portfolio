@@ -5,7 +5,7 @@ import { SiJavascript, SiMongodb, SiMysql, SiExpress, SiTypescript, SiTailwindcs
 function Skill() {
   return (
     <div id="Skill" className="container text-center" style={{ minHeight:"70vh",scrollMarginTop: "80px"}}>
-      <div className="row">
+      <div className="row d-flex flex-wrap justify-content-center">
         <h2
           className="text-center mb-10"
           data-aos="fade-up"
@@ -28,7 +28,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaHtml5 size={35} style={{ marginTop: "5px" }} /></span>
@@ -48,7 +48,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaCss3Alt size={30} color="#1572B6" /></span>
@@ -68,7 +68,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiJavascript size={30} color="#F7DF1E" /></span>
@@ -88,7 +88,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaReact size={30} color="#61DBFB" /></span>
@@ -108,7 +108,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaNodeJs size={30} color="#68A063" /></span>
@@ -127,7 +127,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiTailwindcss size={30} color="#38BDF8" /></span>
@@ -146,7 +146,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🅱<SiBootstrap size={30} color="#7952B3" /></span>
@@ -165,7 +165,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiMongodb size={30} color="#47A248" /></span>
@@ -184,7 +184,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiMysql size={30} color="#00758F" /></span>
@@ -203,7 +203,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaGithub size={30} color="#ffffff" /></span>
@@ -222,7 +222,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiExpress size={30} color="#ffffff" /></span>
@@ -241,7 +241,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiTypescript size={30} color="#3178C6" /></span>
@@ -260,7 +260,7 @@ function Skill() {
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"4rem",
+            margin:"1rem",
           }}
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiJsonwebtokens size={30} color="#000000" /></span>

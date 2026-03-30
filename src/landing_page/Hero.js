@@ -3,9 +3,9 @@ import TypewriterText from "./TypewriterText";
 
 function Hero() {
   return (
-    <div id="Hero" className="container p-5" style={{minHeight :"100vh", overflow: "hidden",scrollMarginTop:"80px"}}>
-      <div className="row ms-5">
-        <div className="col-8 ms-5">
+    <div id="Hero" className="container py-5" style={{minHeight :"100vh", overflow: "hidden",scrollMarginTop:"80px"}}>
+      <div className="row">
+        <div className="col-12 col-md-10 col-lg-8 mx-auto text-center text-md-start">
           <p  data-aos="fade-in"
             data-aos-duration="800"
              className="mt-5" style={{ fontWeight: "700", fontSize: "1rem", color:"#6366f1" }}>
@@ -13,7 +13,7 @@ function Hero() {
           </p>
           <h1  data-aos="fade-up"
             data-aos-duration="900"
-            data-aos-delay="150" style={{ fontWeight: "700", fontSize: "4rem",marginBottom: "1.5rem" }}>
+            data-aos-delay="150" style={{ fontWeight: "700", fontSize: "clamp(2rem, 5vw, 4rem)",marginBottom: "1.5rem" }}>
             I'm <span style={{color: " #8b5cf6"}}> Aryan <br></br>
              Arya. </span>
           </h1>
@@ -27,7 +27,7 @@ function Hero() {
             data-aos-duration="700"
             data-aos-delay="350"
             href="https://www.linkedin.com/in/aryan-610492330"
-            className="p-3"
+            className="p-3 me-3 mt-3 d-inline-block"
             style={{
               color: "#fff",
               textDecoration: "none",
@@ -43,7 +43,7 @@ function Hero() {
             data-aos-duration="700"
             data-aos-delay="400"
             href="https://github.com/Aryanarya01"
-            className="p-3 m-4"
+            className="p-3 me-3 mt-3 d-inline-block"
             style={{
               color: "#fff",
               textDecoration: "none",
