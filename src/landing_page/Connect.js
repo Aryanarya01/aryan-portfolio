@@ -188,6 +188,7 @@ function Connect() {
         borderRadius: "27px",
         width: "80%",
         scrollMarginTop: "100px",
+        marginTop:"8rem",
       }}
       data-aos="fade-up"
     >

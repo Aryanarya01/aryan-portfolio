@@ -1,196 +1,7 @@
-// import React from "react";
-
-// function Skill() {
-//   return (
-//     <div className="container text-center" style={{ minHeight:"70vh"}}>
-//       <div className="row">
-//         <h2
-//           className="text-center mb-10"
-//           style={{ fontWeight: "800", fontSize: "2.5rem" }}
-//         >
-//           Technical Skills
-//         </h2>
-
-    
-//          {/* <div style={{ display: "flex", justifyContent: "flex-start" }}> */}
-
-//           <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>📄</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>HTML</p>
-//         </div>
-
-//         <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🎨</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>CSS</p>
-//         </div>
-
-//           <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>💻</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>JavaScript</p>
-//         </div>
-
-//         <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>⚛️</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>React</p>
-//         </div>
-
-//         <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>⚙️</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>Node.js</p>
-//         </div>
-
-//         <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>💧</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>Tailwind</p>
-//         </div>
-
-//           <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🅱️</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>Bootstrap</p>
-//         </div>
-
-//         <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🌿</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>MongoDB</p>
-//         </div>
-//         <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>💾</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>MYSQL</p>
-//         </div>
-//         <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🐱</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>GitHub</p>
-//         </div>
-//         <div className="skill-card"
-//           style={{
-//             width: "9rem",
-//             backgroundColor: "#111827",
-//             height: "7rem",
-//             borderRadius: "15px",
-//             border: "1px solid #1F2937",
-//             marginTop:"4rem",
-//             marginRight:"1.8rem",
-//           }}
-//         >
-//           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>📦</span>
-//           <p className="mt-2" style={{fontWeight:"700"}}>Express</p>
-//         </div>
-//          </div>
-          
-
-
-
-
-//       </div>
-//     // </div>
-//   );
-// }
-
-// export default Skill;
-
-
+ 
 import React from "react";
-
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
+import { SiJavascript, SiMongodb, SiMysql, SiExpress, SiTypescript, SiTailwindcss, SiBootstrap,SiJsonwebtokens  } from "react-icons/si";
 function Skill() {
   return (
     <div id="Skill" className="container text-center" style={{ minHeight:"70vh",scrollMarginTop: "80px"}}>
@@ -211,17 +22,17 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="100"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>📄</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>HTML</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaHtml5 size={35} style={{ marginTop: "5px" }} /></span>
+          
         </div>
 
         {/* CSS */}
@@ -231,17 +42,17 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="150"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🎨</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>CSS</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaCss3Alt size={30} color="#1572B6" /></span>
+           
         </div>
 
         {/* JS */}
@@ -251,17 +62,17 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="200"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>💻</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>JavaScript</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiJavascript size={30} color="#F7DF1E" /></span>
+           
         </div>
 
         {/* React */}
@@ -271,17 +82,17 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="250"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>⚛️</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>React</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaReact size={30} color="#61DBFB" /></span>
+          
         </div>
 
         {/* Node */}
@@ -291,17 +102,16 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="300"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>⚙️</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>Node.js</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaNodeJs size={30} color="#68A063" /></span>
         </div>
 
         {/* Tailwind */}
@@ -311,17 +121,16 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="350"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>💧</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>Tailwind</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiTailwindcss size={30} color="#38BDF8" /></span>
         </div>
 
         {/* Bootstrap */}
@@ -331,17 +140,16 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="400"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🅱️</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>Bootstrap</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🅱<SiBootstrap size={30} color="#7952B3" /></span>
         </div>
 
         {/* MongoDB */}
@@ -351,17 +159,16 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="450"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🌿</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>MongoDB</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiMongodb size={30} color="#47A248" /></span>
         </div>
 
         {/* MySQL */}
@@ -371,17 +178,16 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="500"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>💾</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>MYSQL</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiMysql size={30} color="#00758F" /></span>
         </div>
 
         {/* GitHub */}
@@ -391,17 +197,16 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="550"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>🐱</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>GitHub</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><FaGithub size={30} color="#ffffff" /></span>
         </div>
 
         {/* Express */}
@@ -411,19 +216,55 @@ function Skill() {
           data-aos-duration="600"
           data-aos-delay="600"
           style={{
-            width: "9rem",
+            width: "7rem",
             backgroundColor: "#111827",
-            height: "7rem",
+            height: "5rem",
             borderRadius: "15px",
             border: "1px solid #1F2937",
             marginTop:"4rem",
-            marginRight:"1.8rem",
+            marginRight:"4rem",
           }}
         >
-          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}>📦</span>
-          <p className="mt-2" style={{fontWeight:"700"}}>Express</p>
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiExpress size={30} color="#ffffff" /></span>
         </div>
 
+        {/* typeScript */}
+         <div
+          className="skill-card"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+          data-aos-delay="600"
+          style={{
+            width: "7rem",
+            backgroundColor: "#111827",
+            height: "5rem",
+            borderRadius: "15px",
+            border: "1px solid #1F2937",
+            marginTop:"4rem",
+            marginRight:"4rem",
+          }}
+        >
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiTypescript size={30} color="#3178C6" /></span>
+        </div>
+
+        {/* JWT */}
+          <div
+          className="skill-card"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+          data-aos-delay="600"
+          style={{
+            width: "7rem",
+            backgroundColor: "#111827",
+            height: "5rem",
+            borderRadius: "15px",
+            border: "1px solid #1F2937",
+            marginTop:"4rem",
+            marginRight:"4rem",
+          }}
+        >
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiJsonwebtokens size={30} color="#000000" /></span>
+        </div>
       </div>
     </div>
   );

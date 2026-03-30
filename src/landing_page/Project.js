@@ -1,259 +1,4 @@
-// import React from "react";
-
-// function Project() {
-//   return (
-//     <div className="container" style={{ minHeight: "100vh" }}>
-//       <div className="row">
-//         <h2
-//           className="text-center mb-10"
-//           style={{ fontWeight: "800", fontSize: "2.5rem" }}
-//         >
-//           Featured Projects
-//         </h2>
-//             {/* card 1 */}
-//         <div className="col">
-//           <div
-//             class="card"
-//             style={{
-//               width: "22rem",
-//               height: "33rem",
-//               marginTop: "3rem",
-//               backgroundColor: "#111827",
-//               border: "1px solid #1F2937",
-//               borderRadius: "15px",
-//             }}
-//           >
-//             <div class="card-body">
-//               <img
-//                 src="./media/blue.jpg"
-//                 class="card-img-top mb-3"
-//                 alt="..."
-//               ></img>
-//               <h5
-//                 class="card-title mb-4"
-//                 style={{ fontWeight: "800", color: "#fff" }}
-//               >
-//                 E-commerce Platform
-//               </h5>
-//               <p class="card-text" style={{ color: "#9CA3AF" }}>
-//                 Some quick example text to build on the card title and make up
-//                 the bulk of the card’s content.An interactive dashboard for
-//                 complex data analysis using Python and Django backend with
-//                 Chart.js on the frontend.
-//               </p>
-//               <div className="my-3">
-//                 <span
-//                   className="py-1 px-3 rounded-pill"
-//                   style={{
-//                     fontWeight: "700",
-//                     fontSize: "12px",
-//                     color: "#9CA3AF",
-//                     backgroundColor: "#1f2937",
-//                     marginRight: "6px",
-//                   }}
-//                 >
-//                   React
-//                 </span>
-//                 <span
-//                   className="py-1 px-3 rounded-pill"
-//                   style={{
-//                     fontWeight: "700",
-//                     fontSize: "12px",
-//                     color: "#9CA3AF",
-//                     backgroundColor: "#1f2937",
-//                     marginRight: "6px",
-//                   }}
-//                 >
-//                   react
-//                 </span>
-//                 <span
-//                   className="py-1 px-3 rounded-pill"
-//                   style={{
-//                     fontWeight: "700",
-//                     fontSize: "12px",
-//                     color: "#9CA3AF",
-//                     backgroundColor: "#1f2937",
-//                     marginRight: "7px",
-//                   }}
-//                 >
-//                   react
-//                 </span>
-//               </div>
-//               <a
-//                 href="#"
-//                 class="card-link"
-//                 style={{ textDecoration: "none", color: "#FBBF24" }}
-//               >
-//                 Code (GitHub) &rarr;
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-//                   {/* card-2 */}
-//                    <div className="col">
-//           <div
-//             class="card"
-//             style={{
-//               width: "22rem",
-//               height: "33rem",
-//               marginTop: "3rem",
-//               backgroundColor: "#111827",
-//               border: "1px solid #1F2937",
-//               borderRadius: "15px",
-//             }}
-//           >
-//             <div class="card-body">
-//               <img
-//                 src="./media/blue.jpg"
-//                 class="card-img-top mb-3"
-//                 alt="..."
-//               ></img>
-//               <h5
-//                 class="card-title mb-4"
-//                 style={{ fontWeight: "800", color: "#fff" }}
-//               >
-//                 E-commerce Platform
-//               </h5>
-//               <p class="card-text" style={{ color: "#9CA3AF" }}>
-//                 Some quick example text to build on the card title and make up
-//                 the bulk of the card’s content.An interactive dashboard for
-//                 complex data analysis using Python and Django backend with
-//                 Chart.js on the frontend.
-//               </p>
-//               <div className="my-3">
-//                 <span
-//                   className="py-1 px-3 rounded-pill"
-//                   style={{
-//                     fontWeight: "700",
-//                     fontSize: "12px",
-//                     color: "#9CA3AF",
-//                     backgroundColor: "#1f2937",
-//                     marginRight: "6px",
-//                   }}
-//                 >
-//                   React
-//                 </span>
-//                 <span
-//                   className="py-1 px-3 rounded-pill"
-//                   style={{
-//                     fontWeight: "700",
-//                     fontSize: "12px",
-//                     color: "#9CA3AF",
-//                     backgroundColor: "#1f2937",
-//                     marginRight: "6px",
-//                   }}
-//                 >
-//                   react
-//                 </span>
-//                 <span
-//                   className="py-1 px-3 rounded-pill"
-//                   style={{
-//                     fontWeight: "700",
-//                     fontSize: "12px",
-//                     color: "#9CA3AF",
-//                     backgroundColor: "#1f2937",
-//                     marginRight: "7px",
-//                   }}
-//                 >
-//                   react
-//                 </span>
-//               </div>
-//               <a
-//                 href="#"
-//                 class="card-link"
-//                 style={{ textDecoration: "none", color: "#FBBF24" }}
-//               >
-//                 Code (GitHub) &rarr;
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-
-//         {/*  card-3 */}
-//          <div className="col">
-//           <div
-//             class="card"
-//             style={{
-//               width: "22rem",
-//               height: "33rem",
-//               marginTop: "3rem",
-//               backgroundColor: "#111827",
-//               border: "1px solid #1F2937",
-//               borderRadius: "15px",
-//             }}
-//           >
-//             <div class="card-body">
-//               <img
-//                 src="./media/blue.jpg"
-//                 class="card-img-top mb-3"
-//                 alt="..."
-//               ></img>
-//               <h5
-//                 class="card-title mb-4"
-//                 style={{ fontWeight: "800", color: "#fff" }}
-//               >
-//                 E-commerce Platform
-//               </h5>
-//               <p class="card-text" style={{ color: "#9CA3AF" }}>
-//                 Some quick example text to build on the card title and make up
-//                 the bulk of the card’s content.An interactive dashboard for
-//                 complex data analysis using Python and Django backend with
-//                 Chart.js on the frontend.
-//               </p>
-//               <div className="my-3">
-//                 <span
-//                   className="py-1 px-3 rounded-pill"
-//                   style={{
-//                     fontWeight: "700",
-//                     fontSize: "12px",
-//                     color: "#9CA3AF",
-//                     backgroundColor: "#1f2937",
-//                     marginRight: "6px",
-//                   }}
-//                 >
-//                   React
-//                 </span>
-//                 <span
-//                   className="py-1 px-3 rounded-pill"
-//                   style={{
-//                     fontWeight: "700",
-//                     fontSize: "12px",
-//                     color: "#9CA3AF",
-//                     backgroundColor: "#1f2937",
-//                     marginRight: "6px",
-//                   }}
-//                 >
-//                   react
-//                 </span>
-//                 <span
-//                   className="py-1 px-3 rounded-pill"
-//                   style={{
-//                     fontWeight: "700",
-//                     fontSize: "12px",
-//                     color: "#9CA3AF",
-//                     backgroundColor: "#1f2937",
-//                     marginRight: "7px",
-//                   }}
-//                 >
-//                   react
-//                 </span>
-//               </div>
-//               <a
-//                 href="#"
-//                 class="card-link"
-//                 style={{ textDecoration: "none", color: "#FBBF24" }}
-//               >
-//                 Code (GitHub) &rarr;
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Project;
+ 
 
 //                   with aos
 
@@ -268,6 +13,102 @@ function Project() {
       once: true,
     });
   }, []);
+  const ProjectCard = ({ project, delay }) => {
+  return (
+    <div className="col" data-aos="fade-up" data-aos-delay={delay}>
+      <div
+        className="card"
+        style={{
+          width: "22rem",
+          height: "33rem",
+          marginTop: "3rem",
+          backgroundColor: "#111827",
+          border: "1px solid #1F2937",
+          borderRadius: "15px",
+        }}
+      >
+        <div className="card-body">
+          <img
+            src={project.image}
+            className="card-img-top mb-3"
+            alt=""
+            style={{ height: "40%", width: "100%" }}
+          />
+
+          <h5 style={{ fontWeight: "800", color: "#fff" }}>
+            {project.title}
+          </h5>
+
+          <p style={{ color: "#9CA3AF" }}>{project.desc}</p>
+
+          <div className="my-3">
+            {project.tech.map((t, i) => (
+              <span
+                key={i}
+                className="py-1 px-3 rounded-pill"
+                style={{
+                  fontWeight: "700",
+                  fontSize: "12px",
+                  color: "#9CA3AF",
+                  backgroundColor: "#1f2937",
+                  marginRight: "6px",
+                }}
+              >
+                {t}
+              </span>
+            ))}
+          </div>
+
+          <a
+            href={project.link}
+            style={{ textDecoration: "none", color: "#FBBF24" }}
+          >
+            Code (GitHub) →
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const projects = [
+  {
+    title: "QuickBite – Food Ordering App",
+    desc: "A full-stack food ordering platform with secure authentication, dynamic cart functionality, and real-time order management using REST APIs.",
+    image: "/media/Quickbite.png",
+    tech: ["React.js", "Node.js", "MongoDB"],
+    link: "https://quickbite-black.vercel.app/",
+  },
+  {
+    title: "Zerodha Clone – Trading Platform",
+    desc: "A full-stack trading platform with authentication, portfolio tracking, and a separate dashboard interface.",
+    image: "/media/Zerodha.png",
+    tech: ["React.js", "Node.js", "MongoDB"],
+    link: "https://github.com/Aryanarya01/Zerodha",
+  },
+  {
+    title: "Rental Booking App",
+    desc: "A full-stack vacation rental platform to browse, list, and book stays. Built using MVC architecture with Node.js, Express, and MongoDB.",
+    image: "/media/wonder.png",
+    tech: ["Node.js", "Express.js", "MongoDB"],
+    link: "https://github.com/Aryanarya01/Wanderlust-Project",
+  },
+  {
+    title: "Portfolio Website",
+    desc: "A portfolio website with smooth UI and interactive sections.",
+    image: "/media/port.png",
+    tech: ["React", "JavaScript", "Bootstrap"],
+    link: "#",
+  },
+   {
+    title: "Auth Notes App",
+    desc: "A secure notes application with user authentication, allowing users to create, manage, and store personal notes safely.",
+    image: "/media/Auth.png",
+    tech: ["React.js", "Node.js", "JWT"],
+    link: "https://github.com/Aryanarya01/Auth-notes-app",
+  },
+  
+];
 
   return (
     <div
@@ -283,248 +124,14 @@ function Project() {
         >
           Featured Projects
         </h2>
-
-        {/* CARD 1 */}
-        <div className="col" data-aos="fade-up" data-aos-delay="600">
-          <div
-            class="card"
-            style={{
-              width: "22rem",
-              height: "33rem",
-              marginTop: "3rem",
-              backgroundColor: "#111827",
-              border: "1px solid #1F2937",
-              borderRadius: "15px",
-            }}
-          >
-            <div class="card-body">
-              <img
-                src="/media/random.png"
-                class="card-img-top mb-3"
-                alt="..."
-                style={{ height: "40%", width: "100%" }}
-              />
-              <h5
-                class="card-title mb-4"
-                style={{ fontWeight: "800", color: "#fff" }}
-              >
-                Random Password Generator
-              </h5>
-              <p class="card-text" style={{ color: "#9CA3AF" }}>
-                A clean and modern tool that instantly generates secure,
-                high-strength passwords with a single click. Built with a
-                responsive UI for a smooth experience across all screen sizes.
-              </p>
-              <div className="my-3">
-                <span
-                  className="py-1 px-3 rounded-pill"
-                  style={{
-                    fontWeight: "700",
-                    fontSize: "12px",
-                    color: "#9CA3AF",
-                    backgroundColor: "#1f2937",
-                    marginRight: "6px",
-                  }}
-                >
-                 HTML 
-                </span>
-                <span
-                  className="py-1 px-3 rounded-pill"
-                  style={{
-                    fontWeight: "700",
-                    fontSize: "12px",
-                    color: "#9CA3AF",
-                    backgroundColor: "#1f2937",
-                    marginRight: "6px",
-                  }}
-                >
-                  CSS
-                </span>
-                <span
-                  className="py-1 px-3 rounded-pill"
-                  style={{
-                    fontWeight: "700",
-                    fontSize: "12px",
-                    color: "#9CA3AF",
-                    backgroundColor: "#1f2937",
-                    marginRight: "7px",
-                  }}
-                >
-                 JavaScript 
-                </span>
-              </div>
-              <a
-                href="https://github.com/Aryanarya01/Random-Password-generator"
-                class="card-link"
-                style={{ textDecoration: "none", color: "#FBBF24" }}
-              >
-                Code (GitHub) →
-              </a>
-            </div>
-          </div>
-        </div>
-
-                  {/* CARD 2 */}
-        <div className="col" data-aos="fade-up" data-aos-delay="0">
-          <div
-            class="card"
-            style={{
-              width: "22rem",
-              height: "33rem",
-              marginTop: "3rem",
-              backgroundColor: "#111827",
-              border: "1px solid #1F2937",
-              borderRadius: "15px",
-            }}
-          >
-            <div class="card-body">
-              <img
-                src="/media/wonder.png"
-                class="card-img-top mb-3"
-                alt=""
-                style={{ height: "40%", width: "100%" }}
-              />
-              <h5
-                class="card-title mb-4"
-                style={{ fontWeight: "800", color: "#fff" }}
-              >
-                Rental Booking App
-              </h5>
-              <p class="card-text" style={{ color: "#9CA3AF" }}>
-                “A full-stack vacation rental platform to browse, list, and book
-                stays. Built using MVC architecture with Node.js, Express, and
-                MongoDB.”
-              </p>
-              <div className="my-3">
-                <span
-                  className="py-1 px-3 rounded-pill"
-                  style={{
-                    fontWeight: "700",
-                    fontSize: "12px",
-                    color: "#9CA3AF",
-                    backgroundColor: "#1f2937",
-                    marginRight: "6px",
-                  }}
-                >
-                  Node.js
-                </span>
-                <span
-                  className="py-1 px-3 rounded-pill"
-                  style={{
-                    fontWeight: "700",
-                    fontSize: "12px",
-                    color: "#9CA3AF",
-                    backgroundColor: "#1f2937",
-                    marginRight: "6px",
-                  }}
-                >
-                  Express.js
-                </span>
-                <span
-                  className="py-1 px-3 rounded-pill"
-                  style={{
-                    fontWeight: "700",
-                    fontSize: "12px",
-                    color: "#9CA3AF",
-                    backgroundColor: "#1f2937",
-                    marginRight: "7px",
-                  }}
-                >
-                  MongoDB
-                </span>
-              </div>
-              <a
-                href="https://github.com/Aryanarya01/Wanderlust-Project"
-                class="card-link"
-                style={{ textDecoration: "none", color: "#FBBF24" }}
-              >
-                Code (GitHub) →
-              </a>
-            </div>
-          </div>
-        </div>
-
-                  {/* CARD 3 */}
-        <div className="col" data-aos="fade-up" data-aos-delay="300">
-          <div
-            class="card"
-            style={{
-              width: "22rem",
-              height: "33rem",
-              marginTop: "3rem",
-              backgroundColor: "#111827",
-              border: "1px solid #1F2937",
-              borderRadius: "15px",
-            }}
-          >
-            <div class="card-body">
-              <img
-                src="/media/port.png"
-                class="card-img-top mb-3"
-                alt="..."
-                style={{ height: "40%", width: "100%" }}
-              />
-              <h5
-                class="card-title mb-4"
-                style={{ fontWeight: "800", color: "#fff" }}
-              >
-                Personal Portfolio Website
-              </h5>
-              <p class="card-text" style={{ color: "#9CA3AF" }}>
-                “A personal portfolio website designed with a clean layout,
-                smooth scrolling, and interactive sections to highlight my
-                skills, projects, and experience as a web developer.”
-              </p>
-              <div className="my-3">
-                <span
-                  className="py-1 px-3 rounded-pill"
-                  style={{
-                    fontWeight: "700",
-                    fontSize: "12px",
-                    color: "#9CA3AF",
-                    backgroundColor: "#1f2937",
-                    marginRight: "6px",
-                  }}
-                >
-                  React
-                </span>
-                <span
-                  className="py-1 px-3 rounded-pill"
-                  style={{
-                    fontWeight: "700",
-                    fontSize: "12px",
-                    color: "#9CA3AF",
-                    backgroundColor: "#1f2937",
-                    marginRight: "6px",
-                  }}
-                >
-                  JavaScript
-                </span>
-                <span
-                  className="py-1 px-3 rounded-pill"
-                  style={{
-                    fontWeight: "700",
-                    fontSize: "12px",
-                    color: "#9CA3AF",
-                    backgroundColor: "#1f2937",
-                    marginRight: "7px",
-                  }}
-                >
-                  Bootstrap
-                </span>
-              </div>
-              <a
-                href="#"
-                class="card-link"
-                style={{ textDecoration: "none", color: "#FBBF24" }}
-              >
-                Code (GitHub) →
-              </a>
-            </div>
-          </div>
-        </div>
-
-         
+ 
+   <div className="row">
+  {projects.map((project, index) => (
+    <div key={index} className="col-md-4 mb-4">
+      <ProjectCard project={project} delay={index * 300} />
+    </div>
+  ))}
+</div>
          
       </div>
     </div>
