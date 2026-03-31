@@ -1,19 +1,19 @@
 import React from 'react';
 
-
 function Footer() {
-    return ( 
-        <div className='container'>
-            <div className='row' style={{display:"flex", alignContent:"center" ,marginTop:"10rem" }}>
-                <hr></hr>
-               <p className="text-center">
-  © 2025 Aryan Arya. Designed and Built with{" "}
-  <span className="text-danger">&hearts;</span>
-</p>
+  return (
+    <div className="container-fluid mt-5">
+      <hr style={{ borderColor: "#374151" }} />
 
-            </div>
-        </div>
-    );
+      <p
+        className="text-center py-3"
+        style={{ color: "#9CA3AF", fontSize: "0.9rem" }}
+      >
+        © 2025 Aryan Arya. Designed and Built with{" "}
+        <span style={{ color: "#EF4444" }}>♥</span>
+      </p>
+    </div>
+  );
 }
 
 export default Footer;
