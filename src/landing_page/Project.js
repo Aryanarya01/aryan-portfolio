@@ -74,6 +74,13 @@ function Project() {
 
 const projects = [
   {
+    title: "ProConnect - Professional Networking Platform",
+    desc: "A full-stack LinkedIn-inspired platform with user profiles, connections, post sharing, work & education sections, and resume upload/download functionality.",
+    image: "/media/linkedIn.png",
+    tech: ["Next.js", "Node.js", "MongoDB"],
+    link: "https://linked-in-lovat.vercel.app/",
+  },
+  {
     title: "QuickBite – Food Ordering App",
     desc: "A full-stack food ordering platform with secure authentication, dynamic cart functionality, and real-time order management using REST APIs.",
     image: "/media/Quickbite.png",
