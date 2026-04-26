@@ -1,7 +1,7 @@
  
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiMongodb, SiMysql, SiExpress, SiTypescript, SiTailwindcss, SiBootstrap,SiJsonwebtokens  } from "react-icons/si";
+import { SiJavascript, SiMongodb, SiMysql, SiExpress, SiTypescript, SiTailwindcss,SiNextdotjs,SiRedux , SiBootstrap,SiJsonwebtokens  } from "react-icons/si";
 function Skill() {
   return (
     <div id="Skill" className="container text-center" style={{ minHeight:"70vh",scrollMarginTop: "80px"}}>
@@ -265,6 +265,46 @@ function Skill() {
         >
           <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiJsonwebtokens size={30} color="#000000" /></span>
         </div>
+
+
+          {/* Nextjs */}
+          <div
+          className="skill-card"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+          data-aos-delay="600"
+          style={{
+            width: "7rem",
+            backgroundColor: "#111827",
+            height: "5rem",
+            borderRadius: "15px",
+            border: "1px solid #1F2937",
+            marginTop:"4rem",
+            margin:"1rem",
+          }}
+        >
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiNextdotjs size={30} color="#ffffff" /></span>
+        </div>
+
+        {/* Redux */}
+          <div
+          className="skill-card"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+          data-aos-delay="600"
+          style={{
+            width: "7rem",
+            backgroundColor: "#111827",
+            height: "5rem",
+            borderRadius: "15px",
+            border: "1px solid #1F2937",
+            marginTop:"4rem",
+            margin:"1rem",
+          }}
+        >
+          <span style={{display: "block",fontSize:"2rem",marginTop:"1rem"}}><SiRedux size={30} color="#ffffff" /></span>
+        </div>
+
       </div>
     </div>
   );
