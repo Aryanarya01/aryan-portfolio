@@ -64,7 +64,7 @@ function Project() {
             href={project.link}
             style={{ textDecoration: "none", color: "#FBBF24" }}
           >
-            Code (GitHub) →
+            🚀 Live Demo →
           </a>
         </div>
       </div>
@@ -73,6 +73,13 @@ function Project() {
 };
 
 const projects = [
+  {
+  title: "SkillSphere",
+  desc: "A full-stack freelance marketplace platform where clients can post jobs, freelancers can submit proposals, chat in real-time, manage portfolios, and receive live notifications.",
+  image: "/media/SkillSphere.png",
+  tech: ["React.js","MongoDB", "Socket.io"],
+  link: "https://github.com/Aryanarya01/SkillSphere",
+},
   {
     title: "ProConnect - Professional Networking Platform",
     desc: "A full-stack LinkedIn-inspired platform with user profiles, connections, post sharing, work & education sections, and resume upload/download functionality.",
@@ -115,6 +122,7 @@ const projects = [
     tech: ["React.js", "Node.js", "JWT"],
     link: "https://github.com/Aryanarya01/Auth-notes-app",
   },
+  
   
 ];
 
